@@ -17,7 +17,7 @@ jobs:
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: "🎉 You've created this issue comment using GitHub Script!!! This is TZ comment"
+            body: "🎉 You've created this issue comment using GitHub Script!!! This is TZ comment.Check this out"
             })
 
     - name: Add issue to project board
